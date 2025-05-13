@@ -92,3 +92,16 @@ h1 {
         margin: 10px 0; 
     }
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+    body {
+        background-image: none; 
+        background-color: #F6A835; 
+    }
+
+    .choice-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px; 
+    }
+}
