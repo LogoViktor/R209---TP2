@@ -1,7 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-image: url('../IMAGES/Sanstitre.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
     margin: 0;
     padding: 20px;
 }
@@ -17,4 +21,33 @@ h1 {
     padding: 20px;
     max-width: 400px;
     margin: 0 auto;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.choice {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A4ADFC;
+    color: #fff;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #A4ADFC;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result p {
+    font-size: 18px;
+    margin: 10px 0;
 }
