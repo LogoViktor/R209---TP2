@@ -52,9 +52,34 @@ h1 {
     margin: 10px 0;
 }
 
+.stats {
+    margin-top: 20px;
+}
+
+.stats p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A4ADFC;
+    color: #fff;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #6d7cff;
+}
+
 @media only screen and (max-width: 425px) {
     body {
-        background-image: none; 
+        background-image: none;
+        background-color: #258594;
     }
 
     .choices {
